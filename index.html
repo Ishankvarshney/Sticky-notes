@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><img src="./images/notes.png" alt="notes">Notes</h1>
+        <div style="display: flex; gap: 10px;">
+            <button onclick="createPage()"><img src="./images/edit.png" alt="edit">Create Notes</button>
+            <button onclick="removeNotes()">Remove Notes</button>
+        </div>
+        <div class="notes-container">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
